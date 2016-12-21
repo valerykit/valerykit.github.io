@@ -1,0 +1,13 @@
+@mixin nunito{
+	font-family:  'Nunito', sans-serif;
+	font-size: 1.2em;
+}
+@mixin abril{
+	font-family: 'Abril Fatface', cursive;
+}
+@mixin transition{
+	transition: all 2s;
+}
+%x{
+	color: red;
+}

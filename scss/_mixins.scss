@@ -1,0 +1,36 @@
+@mixin box{
+	width: 200px;
+	height: 200px;
+	background: lightblue;
+	border-radius: 2px;
+}
+@mixin mp{
+	padding: 0;
+	margin: 0;
+}
+@mixin border-radius{
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	-ms-border-radius: 5px;
+	border-radius: 5px;
+}
+@mixin c{
+	text-align: center;
+}
+@mixin nav{
+	@include mp;
+	list-style-type: none;
+	text-align: center;
+	li{
+		display: inline-block;
+		text-align: center;
+		padding: 5px;
+	}
+}
+@mixin clearfix{
+	&:after{
+		content: '';
+		display: block;
+		clear: both;
+	}
+}

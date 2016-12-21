@@ -1,0 +1,36 @@
+/*
+Error: Invalid @import: expected end of line, was ";".
+        on line 2 of /Users/valerykitkevich/WebSites/Lessons/sass/style.sass
+
+1: 
+2: @import 'variables';
+3: @import 'mixins';
+4: 
+5: .container{
+6: 	background: #eee;
+7: 	height: 300px;
+
+Backtrace:
+/Users/valerykitkevich/WebSites/Lessons/sass/style.sass:2
+/private/var/folders/z4/6h3lwby522l03xyll82v219w0000gn/T/AppTranslocation/6D7C010F-EF29-45CA-B6F3-07AD393A09DE/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:986:in `parse_import_directive'
+/private/var/folders/z4/6h3lwby522l03xyll82v219w0000gn/T/AppTranslocation/6D7C010F-EF29-45CA-B6F3-07AD393A09DE/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:788:in `parse_directive'
+/private/var/folders/z4/6h3lwby522l03xyll82v219w0000gn/T/AppTranslocation/6D7C010F-EF29-45CA-B6F3-07AD393A09DE/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:635:in `parse_line'
+/private/var/folders/z4/6h3lwby522l03xyll82v219w0000gn/T/AppTranslocation/6D7C010F-EF29-45CA-B6F3-07AD393A09DE/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:525:in `build_tree'
+/private/var/folders/z4/6h3lwby522l03xyll82v219w0000gn/T/AppTranslocation/6D7C010F-EF29-45CA-B6F3-07AD393A09DE/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:544:in `block in append_children'
+/private/var/folders/z4/6h3lwby522l03xyll82v219w0000gn/T/AppTranslocation/6D7C010F-EF29-45CA-B6F3-07AD393A09DE/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:543:in `each'
+/private/var/folders/z4/6h3lwby522l03xyll82v219w0000gn/T/AppTranslocation/6D7C010F-EF29-45CA-B6F3-07AD393A09DE/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:543:in `append_children'
+/private/var/folders/z4/6h3lwby522l03xyll82v219w0000gn/T/AppTranslocation/6D7C010F-EF29-45CA-B6F3-07AD393A09DE/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:396:in `_to_tree'
+/private/var/folders/z4/6h3lwby522l03xyll82v219w0000gn/T/AppTranslocation/6D7C010F-EF29-45CA-B6F3-07AD393A09DE/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:368:in `_render_with_sourcemap'
+/private/var/folders/z4/6h3lwby522l03xyll82v219w0000gn/T/AppTranslocation/6D7C010F-EF29-45CA-B6F3-07AD393A09DE/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/engine.rb:285:in `render_with_sourcemap'
+/private/var/folders/z4/6h3lwby522l03xyll82v219w0000gn/T/AppTranslocation/6D7C010F-EF29-45CA-B6F3-07AD393A09DE/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:396:in `run'
+/private/var/folders/z4/6h3lwby522l03xyll82v219w0000gn/T/AppTranslocation/6D7C010F-EF29-45CA-B6F3-07AD393A09DE/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/sass_scss.rb:62:in `process_result'
+/private/var/folders/z4/6h3lwby522l03xyll82v219w0000gn/T/AppTranslocation/6D7C010F-EF29-45CA-B6F3-07AD393A09DE/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:52:in `parse'
+/private/var/folders/z4/6h3lwby522l03xyll82v219w0000gn/T/AppTranslocation/6D7C010F-EF29-45CA-B6F3-07AD393A09DE/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/lib/sass/exec/base.rb:19:in `parse!'
+/private/var/folders/z4/6h3lwby522l03xyll82v219w0000gn/T/AppTranslocation/6D7C010F-EF29-45CA-B6F3-07AD393A09DE/d/Koala.app/Contents/Resources/app.nw/rubygems/gems/sass-3.4.9/bin/sass:13:in `<top (required)>'
+/private/var/folders/z4/6h3lwby522l03xyll82v219w0000gn/T/AppTranslocation/6D7C010F-EF29-45CA-B6F3-07AD393A09DE/d/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `load'
+/private/var/folders/z4/6h3lwby522l03xyll82v219w0000gn/T/AppTranslocation/6D7C010F-EF29-45CA-B6F3-07AD393A09DE/d/Koala.app/Contents/Resources/app.nw/bin/sass:18:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid @import: expected end of line, was \";\".\A         on line 2 of /Users/valerykitkevich/WebSites/Lessons/sass/style.sass\A \A 1: \A 2: @import 'variables';\A 3: @import 'mixins';\A 4: \A 5: .container{\A 6: 	background: #eee;\A 7: 	height: 300px;"; }
